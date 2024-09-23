@@ -1,0 +1,92 @@
+.card {
+	padding: 1.5rem 3.5rem 2.5rem;
+	border-radius: 0 0 2rem 2rem;
+	text-align: center;
+	color: var(--light-blue);
+	background-image: var(--main-gradient);
+}
+
+@media screen and (width > 768px) {
+	.card {
+		padding: 2.375rem 3.375rem 2.875rem;
+		border-radius: 2rem;
+	}
+}
+
+.title {
+	margin-block: 0;
+	font-weight: 800;
+	font-size: var(--font-m);
+}
+
+@media screen and (width > 768px) {
+	.title {
+		font-size: var(--font-l);
+	}
+}
+
+.circle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 140px;
+	aspect-ratio: 1/1;
+	margin: 1.5rem auto;
+	border-radius: 50%;
+	background-image: var(--secondary-gradient);
+	font-weight: 600;
+}
+
+@media screen and (width > 768px) {
+	.circle {
+		width: 200px;
+	}
+}
+
+.points,
+.result-title {
+	font-size: var(--font-l);
+	color: white;
+}
+
+.points {
+	font-size: var(--font-xxl);
+	font-weight: 800;
+}
+
+@media screen and (width > 768px) {
+	.points {
+		font-size: var(--font-xxxl);
+	}
+}
+
+.total {
+	opacity: 0.5;
+	font-size: var(--font-s);
+}
+
+@media screen and (width > 768px) {
+	.total {
+		font-size: var(--font-m);
+	}
+}
+
+.resultTitle {
+	font-weight: 600;
+}
+
+@media screen and (width > 768px) {
+	.resultTitle {
+		font-size: var(--font-xl);
+	}
+}
+
+.resultText {
+	font-size: var(--font-s);
+}
+
+@media screen and (width > 768px) {
+	.resultText {
+		font-size: var(--font-m);
+	}
+}

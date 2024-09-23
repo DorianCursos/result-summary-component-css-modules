@@ -1,0 +1,17 @@
+.button {
+	width: 100%;
+	border: none;
+	border-radius: 8rem;
+	margin-top: auto;
+	color: white;
+	background-color: var(--dark-blue);
+	font-weight: 800;
+	font-size: var(--font-s);
+	line-height: 3rem;
+}
+
+@media screen and (width > 768px) {
+	.button {
+		font-size: var(--font-m);
+	}
+}

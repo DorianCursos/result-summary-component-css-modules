@@ -1,0 +1,50 @@
+.skill {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 0.75rem;
+	font-weight: 600;
+}
+
+.skill:last-of-type {
+	margin-bottom: 1.5rem;
+}
+
+.skill-red {
+	color: var(--red);
+	background-color: var(--soft-red);
+}
+
+.skill-yellow {
+	color: var(--yellow);
+	background-color: var(--soft-yellow);
+}
+
+.skill-green {
+	color: var(--green);
+	background-color: var(--soft-green);
+}
+
+.skill-blue {
+	color: var(--blue);
+	background-color: var(--soft-blue);
+}
+
+.iconTitleContainer {
+	display: flex;
+	gap: 0.75rem;
+}
+
+.value,
+.total {
+	color: var(--dark-blue);
+}
+
+.value {
+	font-weight: 800;
+}
+
+.total {
+	opacity: 0.5;
+}

@@ -1,0 +1,25 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem 1.875rem 1.875rem;
+}
+
+@media screen and (width > 768px) {
+	.card {
+		width: 100%;
+		padding: 2.375rem 2.5rem 2.875rem;
+	}
+}
+
+.title {
+	margin-block: 0;
+	margin-bottom: 1.5rem;
+	font-size: var(--font-m);
+	font-weight: 600;
+}
+
+@media screen and (width > 768px) {
+	.title {
+		font-size: var(--font-l);
+	}
+}

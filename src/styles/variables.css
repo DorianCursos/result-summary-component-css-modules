@@ -1,0 +1,28 @@
+:root {
+	/* COLORS */
+	--bg-color: #ecf2ff;
+	--light-blue: #cac9ff;
+	--dark-blue: #303b59;
+	--very-soft-blue: #ecf2ff;
+	--red: #ff5555;
+	--soft-red: rgb(255 85 85 / 0.1);
+	--yellow: #ffb21e;
+	--soft-yellow: rgb(255 178 30 / 0.1);
+	--green: #00bb8f;
+	--soft-green: rgb(0 187 143 / 0.1);
+	--blue: #1125d6;
+	--soft-blue: rgb(17 27 214 / 0.1);
+	--shadow: rgb(61 108 236 / 0.15);
+
+	/* GRADIENTS */
+	--main-gradient: linear-gradient(#7857ff, #2e2be9);
+	--secondary-gradient: linear-gradient(#4e21ca, transparent);
+
+	/* FONT SIZES */
+	--font-s: 1rem;
+	--font-m: 1.125rem;
+	--font-l: 1.5rem;
+	--font-xl: 2rem;
+	--font-xxl: 3.5rem;
+	--font-xxxl: 4.5rem;
+}
